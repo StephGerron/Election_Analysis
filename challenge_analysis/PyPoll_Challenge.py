@@ -4,7 +4,7 @@ import os
 
 # Create a variable to load and save a file from a path.
 file_to_load = os.path.join("Resources/election_results.csv")
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+file_to_save = os.path.join("challenge_analysis/election_analysis.txt")
 
 # Initialize a total vote counter and then the empty list and dictionary for candidates and counties.
 total_votes = 0
